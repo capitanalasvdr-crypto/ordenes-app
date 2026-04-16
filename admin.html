@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Panel Admin</h1>
+
+<div>
+  <input type="number" id="numero" placeholder="Código orden">
+  <input type="text" id="nombre" placeholder="Nombre">
+  <input type="text" id="desc" placeholder="Descripción">
+  <input type="number" id="precio" placeholder="Precio">
+  <button onclick="agregar()">Crear orden</button>
+</div>
+
+<h2>Órdenes</h2>
+<ul id="lista"></ul>
+
+<script src="admin.js"></script>
+</body>
+</html>
